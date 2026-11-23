@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Log in to PureGym",
+        "description": "Use the email and PIN you log in to the PureGym app with. The sensors follow your home gym.",
+        "data": {
+          "email": "Email",
+          "pin": "PIN"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Log in to PureGym again",
+        "description": "PureGym refused the saved PIN for {email}. Enter your current PIN.",
+        "data": {
+          "pin": "PIN"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "PureGym refused that email and PIN.",
+      "cannot_connect": "Couldn't reach PureGym. Try again in a minute.",
+      "no_home_gym": "This PureGym account has no home gym.",
+      "unknown": "Something unexpected went wrong."
+    },
+    "abort": {
+      "already_configured": "This PureGym account is already set up.",
+      "reauth_successful": "Logged in again.",
+      "wrong_account": "That PIN logs in to a different PureGym account."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "PureGym Attendance options",
+        "data": {
+          "scan_interval": "Check every"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "people": { "name": "People in gym" },
+      "people_in_classes": { "name": "People in classes" },
+      "percent_full": { "name": "Capacity used" },
+      "max_capacity": { "name": "Maximum capacity" },
+      "last_refreshed": { "name": "Last refreshed" }
+    }
+  }
+}

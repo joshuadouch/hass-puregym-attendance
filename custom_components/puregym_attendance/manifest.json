@@ -1,0 +1,12 @@
+{
+  "domain": "puregym_attendance",
+  "name": "PureGym Attendance",
+  "codeowners": ["@joshuadouch"],
+  "config_flow": true,
+  "documentation": "https://github.com/joshuadouch/hass-puregym-attendance",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/joshuadouch/hass-puregym-attendance/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
